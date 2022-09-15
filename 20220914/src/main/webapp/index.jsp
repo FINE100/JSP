@@ -18,7 +18,7 @@
 			<h1>로 그 인</h1>
 		</div>
 		<div>
-			<form action="/20220914/He" method="post">
+			<form action="./He" method="post">
 				<div>
 					<table border="1">
 						<tr>
