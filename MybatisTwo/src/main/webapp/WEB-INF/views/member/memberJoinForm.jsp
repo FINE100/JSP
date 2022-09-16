@@ -95,7 +95,7 @@
 			xhttp.send(); */
 
 			//fetch를 사용한 ajax
-			fetch('ajaxMemberIdCheck.do?id' + id)
+			fetch('ajaxMemberIdCheck.do?id=' + id)
 			.then(response => response.text()) 
 			.then(data=> responseResult(data));			
 		}

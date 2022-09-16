@@ -1,4 +1,4 @@
-package com.micol.nek;
+package co.micol.prj;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -11,12 +11,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.micol.nek.common.Command;
-import com.micol.nek.member.command.AjaxMemberIdCheck;
-import com.micol.nek.member.command.MemberInsert;
-import com.micol.nek.member.command.MemberJoinForm;
-import com.micol.nek.member.command.MemberSelect;
-import com.micol.nek.member.command.MemberSelectList;
+import co.micol.prj.common.Command;
+import co.micol.prj.member.command.AjaxMemberIdCheck;
+import co.micol.prj.member.command.MemberInsert;
+import co.micol.prj.member.command.MemberJoinForm;
+import co.micol.prj.member.command.MemberSelect;
+import co.micol.prj.member.command.MemberSelectList;
 
 /**
  * Servlet implementation class FrontController 모든 .do 요청을 분석하고 처리한다.
