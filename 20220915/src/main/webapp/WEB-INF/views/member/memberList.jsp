@@ -44,18 +44,20 @@
 			</table>
 		</div>
 		<br>
-		<div>
+		<div><!-- location.href = '이동페이지' : 페이지 이동 location.href; : 현제페이지 확인.  -->
 			<button type="button" onclick="location.href='memberJoinForm.do'">멤버추가</button>
-			&nbsp;&nbsp;
+			&nbsp;&nbsp;<!-- 공백 주기 위해 씀. 의미는 없음. -->
 			<button type="button" onclick="location.href='main.do'">홈</button>
 
 		</div>
+		
 		<!-- 화면에 안보이는 히든 폼. post방식으로 동작 되게끔 한다 -->
 		<div>
 			<form id="frm" method="post">
 				<input type="hidden" id="id" name="id">
 			</form>
 			</div>
+		
 		</div>
  <script type="text/javascript">
 		function selectMember(id){		//form의 name = id 
