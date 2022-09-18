@@ -1,5 +1,6 @@
 package co.micol.prj.member.service;
 
+<<<<<<< HEAD
 
 public class MemberVO {
 	private String memberId;
@@ -41,3 +42,16 @@ public class MemberVO {
 	
 }
 
+=======
+import lombok.Data;
+
+@Data
+public class MemberVO {
+	private String memberId;
+	private String memberPassword;
+	private String memberName;
+	private String memberTel;
+	private String memberAuthor;
+
+}
+>>>>>>> branch 'master' of https://github.com/FINE100/JSP.git
