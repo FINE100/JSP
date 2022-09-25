@@ -1,6 +1,4 @@
 package co.micol.prj;
-
-<<<<<<< HEAD
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -32,4 +30,3 @@ public class Main implements Command {
    }
 
 }
->>>>>>> branch 'master' of https://github.com/FINE100/JSP.git

@@ -7,9 +7,4 @@
 	<welcome-file-list>
 		<welcome-file>index.jsp</welcome-file>
 	</welcome-file-list>
-<<<<<<< HEAD
 </web-app>
-
-=======
-</web-app>
->>>>>>> branch 'master' of https://github.com/FINE100/JSP.git

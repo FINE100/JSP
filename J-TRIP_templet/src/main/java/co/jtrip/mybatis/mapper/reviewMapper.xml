@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="co.jtrip.mybatis.mapper.reviewMapper">
+	<select id="reviewSelectList">
+	SELECT * FROM REVIEW
+	</select>
+	
+	<select id="reviewSelect">
+	SELECT * 
+	FROM REVIEW
+	WHERE MEMBER_ID= #{memberId}
+	</select>
+
+	<insert id="reviewInsert">
+	INSERT INTO REVIEW
+	VALUES(#{reviewNo},#{reviewTitle},#{reviewDate},#{reviewContent},#{reviewScore},#{reviewImg},#{memberId})
+	
+	</insert>
+	
+	<update id="reviwUpdate">
+	
+	 UPDATE REVIEW
+ 	 SET REVIEW_TITLE = #{reviewTitle}, REVIEW_CONTENT=#{reviewContent}, 
+ 	 REVIEW_SCORE=#{reviewScore}, REVIEW_IMG=#{reviewImg}
+  	 WHERE MEMBER_ID=#{memberId}
+	
+	</update>
+	
+	<delete id="reivewDelete">
+	DELETE 
+	FROM REVIEW 
+	WHERE REVEIW_NO = #{reviewNo}; 
+	
+	</delete>
+
+</mapper>
